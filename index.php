@@ -55,7 +55,7 @@
             }else{?>
             <tbody>
                 <tr>
-                    <td colspan='5'>Customer does not exist</td>
+                    <td colspan='5' class="text-danger text-center">Customer does not exist</td>
                 </tr>
             </tbody>
 
