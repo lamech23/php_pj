@@ -7,24 +7,27 @@
     <title>customer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+            
+    </style>
 </head>
 <body>
-    <div class="container-lg bg-success mt-3 shadow-lg">
-        <p class="lead">Customers Details</p>
-
-        <form name="search" method="GET">
+    <div class=" navbar container-lg  bg-warning mt-3 my-4 shadow-lg">
+        <h2 class=" fw-italic mx-4 t  " >Customers Details</h2>
+        <form  method="GET" name="search" class='text-end '>
         <input type="text" name="search" placeholder="search">
         <button><i class="bi bi-search"></i></button>
 
         </form>
     </div>
+
+    <div class="container-lg">
     <table class="table table-borderd">
         <thead>
            <tr>
-           <th>Account Number</th>
-            <th>Firstname</th>
-            <th>Secondname</th>
-            <th>Lastname</th>
+           <th>Account_number</th>
+            <th>First_name</th>
+            <th>Last_name</th>
             <th>phone</th>
             <th>Email</th>
             <th>Address</th>
@@ -61,6 +64,7 @@
         </tbody>
         </thead>
     </table>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
